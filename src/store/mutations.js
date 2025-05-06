@@ -6,6 +6,6 @@ export function setSearchedMeals(state, meals) {
      state.mealsByLetter = meals || []
  }
  
- export function setMealsByIngredients(state, meals) {
+ export function setMealsByIngredient(state, meals) {
      state.mealsByIngredient = meals || []
  }
